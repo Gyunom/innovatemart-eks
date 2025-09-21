@@ -81,14 +81,9 @@ I set up GitHub Actions so that:
 
 ## My Developer Account
 
-I created a read-only account for developers. Here's how to use it:
+I created a read-only account for developers. credentials are in the file attached:
 
 ```bash
-# Set up the credentials (I'll provide these separately)
-export AWS_ACCESS_KEY_ID="AKIASZ5FJAYWPIJ2VHJL"
-export AWS_SECRET_ACCESS_KEY="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%"
-export AWS_DEFAULT_REGION="eu-west-1"
-
 # Connect to the cluster
 aws eks update-kubeconfig --region eu-west-1 --name innovatemart-eks
 
